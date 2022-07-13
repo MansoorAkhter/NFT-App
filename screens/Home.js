@@ -3,7 +3,6 @@ import { Text, View, SafeAreaView, FlatList } from "react-native";
 import { NFTData, COLORS } from "../constants";
 import { NFTCard, HomeHeader, FocusedStatusBar } from "../components";
 
-
 const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
@@ -28,11 +27,12 @@ const Home = () => {
           zIndex: -1
         }}>
           <View style={{ height: 300, backgroundColor: COLORS.primary }} />
-          <View style={{ flex: 1, backgroundColor: COLORS.white }} />
+          <View style={{
+            flex: 1, backgroundColor: COLORS.white
+          }}
+          />
         </View>
-
       </View>
-
     </SafeAreaView>
   )
 }

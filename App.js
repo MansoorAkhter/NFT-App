@@ -19,7 +19,8 @@ const [loaded] = useFonts({
   InterBold: require("./assets/fonts/Inter-Bold.ttf"),
   InterSemiBold: require("./assets/fonts/Inter-SemiBold.ttf"),
   InterMedium: require("./assets/fonts/Inter-Medium.ttf"),
-  InterLight: require("./assets/fonts/Inter-Light.ttf")
+  InterLight: require("./assets/fonts/Inter-Light.ttf"),
+  InterRegular: require("./assets/fonts/Inter-Regular.ttf")
 });
 
 if(!loaded) return null;
