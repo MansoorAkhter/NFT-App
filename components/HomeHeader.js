@@ -51,7 +51,7 @@ const HomeHeader = ({onSearch}) => {
       <View style={{ marginTop: SIZES.font }}>
         <View style={{
           width: "100%",
-          borderRadius: 3,
+          borderRadius: SIZES.font,
           backgroundColor: COLORS.gray,
           flexDirection: "row",
           alignItems: "center",
